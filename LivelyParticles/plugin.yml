@@ -1,0 +1,81 @@
+name: LivelyParticles
+version: 1.0.0
+description: A Particle Effects Plugin
+
+author: Azewilous
+
+main: com.aze.livelyparticles.LivelyParticles
+
+commands:
+  livelyeffects:
+    description: Plays Water Particle Effects
+    usage: /livelyeffects
+    aliases: [le]
+  lereload:
+    description: Reloads The Particle Effects Plugin.
+    usage: /lereload
+    aliases: [ler]
+permissions:
+  le.reload:
+    description: Permission to reload the plugin.
+    default: false
+  le.help:
+    description: Permission to use help command for the plugin.
+    default: false
+  le.play:
+    description: Permission to use the play command.
+    default: false
+  le.cease:
+    description: Permission to use command to stop particles.
+    default: false
+  le.list:
+    description: Permission to list all particle effects.
+    default: false
+  le.play.water:
+    description: Permission to use water particle.
+    default: false
+  le.play.lava:
+    description: Permission to use lava particle.
+    default: false
+  le.play.smoke:
+    description: Permission to use smoke particle.
+    default: false
+  le.play.star:
+    description: Permission to use star particle.
+    default: false
+  le.play.explosion:
+    description: Permission to use explosion particle.
+    default: false
+  le.play.cloud:
+    description: Permission to use cloud particle.
+    default: false
+  le.play.heart:
+    description: Permission to use heart particle.
+    default: false
+  le.play.fireworks:
+    description: Permission to use fireworks particle.
+    default: false
+  le.play.note:
+    description: Permission to use note particle.
+    default: false
+  le.play.splash:
+    description: Permission to use splash particle.
+    default: false
+  le.play.signal:
+    description: Permission to use signal particle.
+    default: false
+  le.play.flame:
+    description: Permission to use flame particle.
+    default: false
+  le.play.portal:
+    description: Permission to use portal particle.
+    default: false
+  le.play.tilebreak:
+    description: Permission to use tilebreak particle.
+    default: false
+  le.play.dust:
+    description: Permission to use dust particle.
+    default: false
+  le.play.swirl:
+    description: Permission to use swirl particle.
+    default: false
